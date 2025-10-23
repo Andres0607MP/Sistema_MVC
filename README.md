@@ -151,6 +151,33 @@ Estudiante de **Tecnólogo en Análisis y Desarrollo de Software (ADSO)** - SENA
 Proyecto académico con enfoque en **desarrollo web dinámico** y buenas prácticas de programación.
 
 ---
+## Mapa de navegacion
+## INICIO (index.html)
+│
+### ├── Iniciar Sesión (login.html)
+### │     └── login.php → valida credenciales
+### │           ├── index_ad.php → Panel administrador
+### │           ├── index_cli.php → Panel cliente
+### │           └── reservas_empleado.php → Panel empleado
+### │
+### ├── Panel Administrador (index_ad.php)
+### │     ├── reservas_admin.php → gestión de reservas
+### │     ├── mis_reservas_ad.php → ver reservas propias
+### │     ├── save_reserva.php → guardar nueva reserva
+### │     └── close.php → cerrar sesión
+### │
+### ├── Panel Cliente (index_cli.php)
+### │     ├── mis_reservas.php → ver mis reservas
+### │     ├── save_client.php → registrar cliente
+### │     ├── formar.php → formulario para transporte aéreo
+### │     ├── formter.php → formulario para transporte terrestre
+### │     └── close.php → cerrar sesión
+### │
+### └── Panel Empleado (reservas_empleado.php)
+###      ├── mis_reservas.php → ver reservas asignadas
+###      ├── save_reserva.php → crear o actualizar reserva
+###      └── close.php → cerrar sesión
+---
 
 ## 🧾 Licencia
 
